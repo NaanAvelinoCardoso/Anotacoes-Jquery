@@ -1,0 +1,7 @@
+Como saber se elemento tem uma classe??
+
+if ($('input').hasClass('campodetexto')) {	//seleciona o elemento e depois da um hasClass e o nome da class para verificar se tem essa class nesse elemento!!
+    alert("TEM UMA CLASS!!");
+} else {
+    alert("NÃO TEM CLASS!!");
+}

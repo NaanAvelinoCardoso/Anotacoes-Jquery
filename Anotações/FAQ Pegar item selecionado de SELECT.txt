@@ -1,0 +1,7 @@
+FAQ: Pegar item selecionado de SELECT
+
+
+$('#idade').find('option').eq(1).attr('selected', 'selected');	//irá da um selected no  segundo option
+
+
+$('#idade').val();  //irá pegar o valor do option!!

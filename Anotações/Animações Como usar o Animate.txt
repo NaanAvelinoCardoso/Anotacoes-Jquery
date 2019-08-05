@@ -1,0 +1,15 @@
+Função animate();
+
+
+$('#div').animate({}); 		// o primeiro parametro desse função é as propiedade de css que tera na animação e o segundo parametro será a duração ou pode colocar um json que seria o {}.
+
+
+
+EX real:
+
+ $('#botao').bind('click', function() {
+        $('#div').animate({
+            'margin-left':200,
+            'margin-top':20
+        }, 1000);
+});

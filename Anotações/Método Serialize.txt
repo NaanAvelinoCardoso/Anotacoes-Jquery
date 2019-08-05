@@ -1,0 +1,14 @@
+Metodo serialize
+
+EX real:
+
+$('#form').bind('submit', function(e){
+        e.preventDefault();
+
+        var txt = $(this).serialize();		
+        console.log(txt);
+});
+
+descrição:
+ele ira pegar todas as informações que o usuario enviar pelo form, do form inteiro
+dos input, select e etc.

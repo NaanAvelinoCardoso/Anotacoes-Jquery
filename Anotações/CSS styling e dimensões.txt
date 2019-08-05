@@ -1,0 +1,5 @@
+$('h1').addClass('nomedaclass');  //irá adicionar uma class no seu h1
+
+$('input').css("atributo do css", "valor desse atribudo do css"); //irá adicionar um css no seu input
+
+$('button').removeClass('nomedaclass'); //irá remover a class do button

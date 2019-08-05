@@ -1,0 +1,21 @@
+$('img' /*o elemento*/ ).attr /*a função que ira fazer a alteração desse elemento*/ 
+('width' /*o atribudo/etc que você quer alterar*/ , '100' /*o valor que você quer 
+alterar desse atribudo*/ ); //altera a propiedade/valor do elemento especificado.
+
+	
+$('img').attr('height', '100'); //Exemplo do codigo pronto
+$('img').attr('height'); //irá selecionar o valor desse atribudo do 1 parametro da função attr
+
+
+$(function() {
+	
+	$('img'/*o elemento*/).attr/*a função que ira fazer a alteração desse elemento*/
+	('width'/*o atribudo/etc que você quer alterar*/, '100'/*o valor que você quer alterar desse atribudo*/);
+	//altera a propiedade/valor do elemento especificado.
+	
+	$('img').attr('height', '100'); //Exemplo do codigo pronto
+	$('img').attr('height'); // irá selecionar o valor do 1 parametro da função attr
+	
+
+});
+

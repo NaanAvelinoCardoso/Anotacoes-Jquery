@@ -1,0 +1,11 @@
+Elemento aparecer e desaparecer com animação
+
+$('#div').toggle('slow');
+
+EX REAL:
+
+$('#botao').bind('click', function() {
+
+	$('#div').toggle('slow');
+
+});

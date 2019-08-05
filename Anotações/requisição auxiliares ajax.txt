@@ -1,0 +1,23 @@
+/*
+REQUISIÇÂO COM LOAD(Mais usada quando for carrega um arquivo sem envio de muitas informaçôes e a mais basica e a segunda melhor de se usar)!! 
+
+$('.div').load("teste.html");
+*/
+
+
+/*
+REQUISIÇÂO COM GET!! 
+
+$.get("teste.html", function(t){
+	$('.div').html(t);
+});
+*/
+
+
+/*
+REQUISIÇÂO COM POST!! 
+
+$.post("teste.html", function(t){
+	$('.div').html(t);
+});
+*/

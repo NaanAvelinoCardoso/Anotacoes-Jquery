@@ -1,0 +1,33 @@
+		
+
+		FUNÇÃO PARA TIRAR ESPAÇOS DO COMEÇO E FIM DOS TEXTO
+
+$.trim(valor); //irá remover os espaços da direita(antes do texto) e do final dos texto
+
+EX:
+var valor = $.trim($('#algo').html());
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+
+
+OUTRAS FUNÇÕES:
+$.type();	//irá mostra o tipo do valor que você passou como parametro
+
+EX:
+$.type("Naan"); //o retorno sera string
+
+
+
+$.isNumeric();	//irá retorna true se estiver sendo passado uma variavel com numero como parametro ou irá retornar false se não tiver nenhuma variavel com numero sendo passado como parametro
+
+EX:
+$.isNumeric(idade);	//o retorno sera true porque esta sendo passada uma variavel com numero!!
+
+
+
+
+$.isArray();	//irá retorna true se estiver sendo passado uma variavel com um array como parametro ou irá retornar false se não tiver nenhuma variavel com um array sendo passado como parametro
+
+EX:
+$.isArray(array);	//o retorno sera true porque esta sendo passada uma variavel com um array!!
+

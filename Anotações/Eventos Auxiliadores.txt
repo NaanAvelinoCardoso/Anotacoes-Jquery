@@ -1,0 +1,9 @@
+HOVER: 
+
+$('.hover').hover(function(){}, function(){});
+
+descrição:
+
+o primeiro parametro passado nessa função do hover e um function() que ira fazer
+algo quando passar o mouse por cima e o segundo parametro e outro function() que
+ira fazer algo quando tira o mouse de cima de algo.

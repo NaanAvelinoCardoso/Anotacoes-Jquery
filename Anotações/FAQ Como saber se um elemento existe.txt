@@ -1,0 +1,12 @@
+Como saber se um elemento existe??
+
+if ($('#algo').length > 0) {
+    
+	alert("EXISTE!!");
+
+}
+else {
+   
+	alert("NÂO EXISTE!!");
+
+}

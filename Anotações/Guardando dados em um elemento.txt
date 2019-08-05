@@ -1,0 +1,4 @@
+$('input').data('o nome da sua escolha obs: pode ser qualquer um', 'aqui ficará o valor'); // funciona como uma variavel para salvar dados 
+
+EX:
+$('input').data('caracteres', $('input').val().length);

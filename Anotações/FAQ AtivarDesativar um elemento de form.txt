@@ -1,0 +1,16 @@
+FAQ: AtivarDesativar um elemento de form
+
+EX COM INPUT:
+$('#nome').attr('disabled', 'disabled');	//seleciona o elemento e depois adicionar o atribudo desativar
+
+
+$('#nome').removeAttr('disabled','disabled');	//irá remover o atributo disabled e irá volta a ser ativo!!
+
+
+
+
+EX COM CHECKBOX:
+$('#nome').attr('checked', 'checked');	//seleciona o elemento e depois adicionar o atribudo desativar
+
+
+$('#nome').removeAttr('checked','checked');	//irá remover o atributo disabled e irá volta a ser ativo!!
